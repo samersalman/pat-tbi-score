@@ -1,0 +1,25 @@
+{
+  "upload_type": "software",
+  "title": "PAT-TBI Score: analysis code",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Salman, Samer G.",
+      "affiliation": "Baylor College of Medicine",
+      "orcid": "0009-0007-9897-4071"
+    }
+  ],
+  "description": "<p>Analysis code for the PAT-TBI score (Platelet Allocation Tool for Traumatic Brain Injury), an integer score that estimates the chance that an adult patient with traumatic brain injury receives a platelet transfusion within 4 hours of emergency department arrival. The score was derived and internally validated on the American College of Surgeons National Trauma Data Bank research data, admission years 2020 to 2024. It has not been externally or prospectively validated and is for research use only.</p><p>The archive contains the Python scripts that build the cohort from the National Trauma Data Bank, select predictors by LASSO stability selection, fit the unpenalized model and convert it to integer points, validate the score on a held-out sample, and run the calibration, decision-curve, subgroup, sensitivity and interval analyses, together with documentation of the run order and the environment. It contains code only: no patient-level data, result tables or figures are included. The National Trauma Data Bank files must be obtained from the American College of Surgeons.</p>",
+  "keywords": [
+    "traumatic brain injury",
+    "platelet transfusion",
+    "trauma",
+    "clinical prediction rule",
+    "integer risk score",
+    "LASSO stability selection",
+    "National Trauma Data Bank"
+  ]
+}

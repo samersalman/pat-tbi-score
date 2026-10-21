@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the archived release.
+title: >-
+  PAT-TBI Score: analysis code
+abstract: >-
+  Analysis code for the PAT-TBI score (Platelet Allocation Tool for
+  Traumatic Brain Injury), an integer score that estimates the chance that an
+  adult patient with traumatic brain injury receives a platelet transfusion
+  within 4 hours of emergency department arrival. The score was derived and
+  internally validated on the American College of Surgeons National Trauma
+  Data Bank research data (admission years 2020 to 2024). The repository holds
+  code only: no patient-level data, result tables or figures are included.
+type: software
+version: 1.0.0
+license: MIT
+repository-code: 'https://github.com/samersalman/pat-tbi-score'
+authors:
+  - given-names: Samer G.
+    family-names: Salman
+    orcid: 'https://orcid.org/0009-0007-9897-4071'
+    affiliation: 'Baylor College of Medicine'
+keywords:
+  - traumatic brain injury
+  - platelet transfusion
+  - trauma
+  - clinical prediction rule
+  - integer risk score
+  - LASSO stability selection
+  - National Trauma Data Bank
+# add_doi:release:begin
+# @@DOI_BLOCK@@ (filled by scripts/add_doi.py after the Zenodo release)
+# add_doi:release:end

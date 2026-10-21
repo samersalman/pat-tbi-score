@@ -1,0 +1,51 @@
+# This repository is code only. The patterns below are never committed: they
+# cover patient-level data, intermediate files, result tables, figures and
+# manuscript documents. They are listed explicitly here and do not rely on any
+# ignore rules configured on the maintainer's machine.
+
+# Output folders written when the pipeline is run (the scripts write them under
+# PAT_TBI_WORKDIR, outside the repository; these lines are a second guard)
+derived/
+tables/
+figures/
+logs/
+bundle/
+work/
+scratch/
+tmp/
+v3/
+v4/
+v6/
+
+# Data and output file types
+*.parquet
+*.csv
+*.docx
+*.png
+*.tif
+*.tiff
+*.pdf
+*.pkl
+*.duckdb
+*.db
+*.log
+*_HANDOFF.md
+
+# Local environment and instructions files
+.env
+.env.*
+CLAUDE.md
+~$*
+
+# Python and OS noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+
+# Shipped file types are .py .md .txt .json .cff .yml and MANIFEST.sha256.
+# None of them matches a pattern above, and none matches the maintainer's
+# global ignore rules either, so no shipped file needs `git add -f`. Review
+# every commit with `git status` and `git diff --cached --stat` before pushing.
